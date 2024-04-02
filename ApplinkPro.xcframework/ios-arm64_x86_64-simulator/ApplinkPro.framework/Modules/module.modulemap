@@ -1,0 +1,11 @@
+framework module ApplinkPro {
+  umbrella header "ApplinkPro.h"
+  export *
+
+  module * { export * }
+}
+
+module ApplinkPro.Swift {
+  header "ApplinkPro-Swift.h"
+  requires objc
+}

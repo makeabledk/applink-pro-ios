@@ -1,0 +1,1152 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplinkPro",
+        "printedName": "ApplinkPro",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApplinkPro",
+                "printedName": "ApplinkPro.ApplinkPro",
+                "usr": "s:10ApplinkProAAC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ApplinkProAAC6sharedABvpZ",
+            "mangledName": "$s10ApplinkProAAC6sharedABvpZ",
+            "moduleName": "ApplinkPro",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplinkPro",
+                    "printedName": "ApplinkPro.ApplinkPro",
+                    "usr": "s:10ApplinkProAAC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ApplinkProAAC6sharedABvgZ",
+                "mangledName": "$s10ApplinkProAAC6sharedABvgZ",
+                "moduleName": "ApplinkPro",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(appId:secretKey:verbose:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ApplinkProAAC5setup5appId9secretKey7verboseySS_SSSbtYaF",
+            "mangledName": "$s10ApplinkProAAC5setup5appId9secretKey7verboseySS_SSSbtYaF",
+            "moduleName": "ApplinkPro",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchInitialDeeplinkData",
+            "printedName": "fetchInitialDeeplinkData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ApplinkPro.ApplinkProDeeplink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplinkProDeeplink",
+                    "printedName": "ApplinkPro.ApplinkProDeeplink",
+                    "usr": "s:10ApplinkPro0aB8DeeplinkV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ApplinkProAAC24fetchInitialDeeplinkDataAA0abE0VSgyYaF",
+            "mangledName": "$s10ApplinkProAAC24fetchInitialDeeplinkDataAA0abE0VSgyYaF",
+            "moduleName": "ApplinkPro",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchDataFromDeeplink",
+            "printedName": "fetchDataFromDeeplink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ApplinkPro.ApplinkProDeeplink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplinkProDeeplink",
+                    "printedName": "ApplinkPro.ApplinkProDeeplink",
+                    "usr": "s:10ApplinkPro0aB8DeeplinkV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ApplinkProAAC21fetchDataFromDeeplinkyAA0abF0VSg10Foundation3URLVYaF",
+            "mangledName": "$s10ApplinkProAAC21fetchDataFromDeeplinkyAA0abF0VSg10Foundation3URLVYaF",
+            "moduleName": "ApplinkPro",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canHandleDeeplink",
+            "printedName": "canHandleDeeplink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ApplinkProAAC17canHandleDeeplinkySb10Foundation3URLVF",
+            "mangledName": "$s10ApplinkProAAC17canHandleDeeplinkySb10Foundation3URLVF",
+            "moduleName": "ApplinkPro",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10ApplinkProAAC",
+        "mangledName": "$s10ApplinkProAAC",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplinkProError",
+        "printedName": "ApplinkProError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "DecodingError",
+            "printedName": "DecodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ApplinkPro.ApplinkProError.Type) -> (Swift.Error) -> ApplinkPro.ApplinkProError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ApplinkPro.ApplinkProError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplinkProError",
+                        "printedName": "ApplinkPro.ApplinkProError",
+                        "usr": "s:10ApplinkPro0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ApplinkPro.ApplinkProError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplinkProError",
+                        "printedName": "ApplinkPro.ApplinkProError",
+                        "usr": "s:10ApplinkPro0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ApplinkPro0aB5ErrorO08DecodingC0yACs0C0_pcACmF",
+            "mangledName": "$s10ApplinkPro0aB5ErrorO08DecodingC0yACs0C0_pcACmF",
+            "moduleName": "ApplinkPro"
+          },
+          {
+            "kind": "Var",
+            "name": "RequestError",
+            "printedName": "RequestError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ApplinkPro.ApplinkProError.Type) -> (Swift.Error) -> ApplinkPro.ApplinkProError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ApplinkPro.ApplinkProError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplinkProError",
+                        "printedName": "ApplinkPro.ApplinkProError",
+                        "usr": "s:10ApplinkPro0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ApplinkPro.ApplinkProError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplinkProError",
+                        "printedName": "ApplinkPro.ApplinkProError",
+                        "usr": "s:10ApplinkPro0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ApplinkPro0aB5ErrorO07RequestC0yACs0C0_pcACmF",
+            "mangledName": "$s10ApplinkPro0aB5ErrorO07RequestC0yACs0C0_pcACmF",
+            "moduleName": "ApplinkPro"
+          },
+          {
+            "kind": "Var",
+            "name": "NoDataFound",
+            "printedName": "NoDataFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ApplinkPro.ApplinkProError.Type) -> ApplinkPro.ApplinkProError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplinkProError",
+                    "printedName": "ApplinkPro.ApplinkProError",
+                    "usr": "s:10ApplinkPro0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ApplinkPro.ApplinkProError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplinkProError",
+                        "printedName": "ApplinkPro.ApplinkProError",
+                        "usr": "s:10ApplinkPro0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ApplinkPro0aB5ErrorO11NoDataFoundyA2CmF",
+            "mangledName": "$s10ApplinkPro0aB5ErrorO11NoDataFoundyA2CmF",
+            "moduleName": "ApplinkPro"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10ApplinkPro0aB5ErrorO",
+        "mangledName": "$s10ApplinkPro0aB5ErrorO",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplinkProDeeplink",
+        "printedName": "ApplinkProDeeplink",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "redirectLink",
+            "printedName": "redirectLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvp",
+            "mangledName": "$s10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvp",
+            "moduleName": "ApplinkPro",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvg",
+                "mangledName": "$s10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvg",
+                "moduleName": "ApplinkPro",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvs",
+                "mangledName": "$s10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvs",
+                "moduleName": "ApplinkPro",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvM",
+                "mangledName": "$s10ApplinkPro0aB8DeeplinkV12redirectLink10Foundation3URLVvM",
+                "moduleName": "ApplinkPro",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvp",
+            "mangledName": "$s10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvp",
+            "moduleName": "ApplinkPro",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvg",
+                "mangledName": "$s10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvg",
+                "moduleName": "ApplinkPro",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvs",
+                "mangledName": "$s10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvs",
+                "moduleName": "ApplinkPro",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvM",
+                "mangledName": "$s10ApplinkPro0aB8DeeplinkV4dataSDyS2SGvM",
+                "moduleName": "ApplinkPro",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApplinkProDeeplink",
+                "printedName": "ApplinkPro.ApplinkProDeeplink",
+                "usr": "s:10ApplinkPro0aB8DeeplinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ApplinkPro0aB8DeeplinkV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10ApplinkPro0aB8DeeplinkV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ApplinkPro",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10ApplinkPro0aB8DeeplinkV",
+        "mangledName": "$s10ApplinkPro0aB8DeeplinkV",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/ApplinkPro.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/ApplinkPro.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/ApplinkPro.swift",
+      "kind": "BooleanLiteral",
+      "offset": 407,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/ApplinkPro.swift",
+      "kind": "BooleanLiteral",
+      "offset": 522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/ApplinkPro.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 53,
+      "value": "\"ApplinkPro verbose - No initial deeplink data found\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 48,
+      "value": "\"APPLINK_PRO_USERDEFAULTS_KEY_DID_LAUNCH_BEFORE\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 48,
+      "value": "\"APPLINK_PRO_USERDEFAULTS_KEY_DID_LAUNCH_BEFORE\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/StorageService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 786,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 4,
+      "value": "\"v1\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 24,
+      "value": "\"https:\/\/applinkpro.com\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 686,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 1,
+      "value": "\"\/datalinks\/data\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 845,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 1,
+      "value": "\"\/sdk-validation\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 748,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
+      "length": 60,
+      "value": "\"ApplinkPro verbose - An error occured while decoding data.\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 57,
+      "value": "\"ApplinkPro verbose - An error occured with the request.\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1597,
+      "length": 46,
+      "value": "\"ApplinkPro verbose - No deeplink data found.\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1706,
+      "length": 66,
+      "value": "\"ApplinkPro verbose - An unknown error occured. Please try again.\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1936,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1968,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2049,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2089,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2391,
+      "length": 18,
+      "value": "\"getDataLinkData-\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2578,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2957,
+      "length": 65,
+      "value": "\"sdk-validation-\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 1,
+      "value": "\"-ios-\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3021,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3613,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3660,
+      "length": 8,
+      "value": "\"expire\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3702,
+      "length": 6,
+      "value": "\"hmac\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3961,
+      "length": 56,
+      "value": "\"ApplinkPro verbose - Fetching initial deeplink data...\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4256,
+      "length": 100,
+      "value": "\"ApplinkPro - The SDK is not validated. Check if the setup function contains the correct id and key\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4721,
+      "length": 14,
+      "value": "\"redirectLink\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4777,
+      "length": 8,
+      "value": "\"expire\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4819,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4885,
+      "length": 6,
+      "value": "\"hmac\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 5153,
+      "length": 48,
+      "value": "\"ApplinkPro verbose - Fetching deeplink data...\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 5441,
+      "length": 100,
+      "value": "\"ApplinkPro - The SDK is not validated. Check if the setup function contains the correct id and key\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 5769,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 5812,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 5824,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 5847,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 5900,
+      "length": 6,
+      "value": "\"hmac\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6098,
+      "length": 40,
+      "value": "\"ApplinkPro verbose - Validating SDK...\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6162,
+      "length": 50,
+      "value": "\"ApplinkPro verbose - App ID: \""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6236,
+      "length": 60,
+      "value": "\"ApplinkPro verbose - SDK version: \""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6295,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6498,
+      "length": 33,
+      "value": "\"ApplinkPro - App ID is invalid.\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6618,
+      "length": 37,
+      "value": "\"ApplinkPro - Secret key is invalid.\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6750,
+      "length": 89,
+      "value": "\"ApplinkPro - New version of the SDK is available: \""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6837,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6880,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 6972,
+      "length": 46,
+      "value": "\"ApplinkPro verbose - SDK has been validated.\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7077,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
