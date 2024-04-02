@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		n8yfV3XoLN+uv/DACEsGLPyv8bs=
+		abRUYKkgoZ+4Y+GgK4GstU2XxhQ=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		n8yfV3XoLN+uv/DACEsGLPyv8bs=
+		abRUYKkgoZ+4Y+GgK4GstU2XxhQ=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -59,6 +59,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		GwgTOiDBJWizfIdXktmjnDlx46A=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		6PyG/Sn5jh81qqGDYJ701GSxHBw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -81,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xSq62C24U6iozh6NwKBmlyKwRoEQge2l+PYDWN1BS0=
+			uGO5mOokebHDNjtGb/LhMdbOxrDxeYdIAX5IYlIBr48=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xSq62C24U6iozh6NwKBmlyKwRoEQge2l+PYDWN1BS0=
+			uGO5mOokebHDNjtGb/LhMdbOxrDxeYdIAX5IYlIBr48=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,6 +156,13 @@
 			<key>hash2</key>
 			<data>
 			ZpuYKOGr1oMsvMHKUe/qbuRYvgnrN2yf52HMfuA7KDM=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3I1+H5p9p/M4HzB0a1kgbuYs4iW2n+O8u2YjT4RZvjU=
 			</data>
 		</dict>
 	</dict>
