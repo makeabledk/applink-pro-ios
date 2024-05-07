@@ -6,6 +6,7 @@
 import CryptoKit
 import Foundation
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

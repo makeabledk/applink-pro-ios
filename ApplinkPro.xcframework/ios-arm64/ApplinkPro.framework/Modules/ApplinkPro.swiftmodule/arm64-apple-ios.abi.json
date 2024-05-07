@@ -214,6 +214,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplinkPro",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -421,8 +431,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ApplinkPro"
       },
@@ -843,343 +853,385 @@
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 277,
+      "offset": 272,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 748,
+      "offset": 743,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1345,
       "length": 60,
       "value": "\"ApplinkPro verbose - An error occured while decoding data.\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 1477,
+      "offset": 1472,
       "length": 57,
       "value": "\"ApplinkPro verbose - An error occured with the request.\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 1597,
+      "offset": 1592,
       "length": 46,
       "value": "\"ApplinkPro verbose - No deeplink data found.\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 1706,
+      "offset": 1701,
       "length": 66,
       "value": "\"ApplinkPro verbose - An unknown error occured. Please try again.\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 1936,
+      "offset": 1931,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 1968,
+      "offset": 1963,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2003,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2044,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2089,
+      "offset": 2084,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2391,
+      "offset": 2386,
       "length": 18,
       "value": "\"getDataLinkData-\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2578,
+      "offset": 2573,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2957,
+      "offset": 2952,
       "length": 65,
       "value": "\"sdk-validation-\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2992,
+      "offset": 2987,
       "length": 1,
       "value": "\"-ios-\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 3021,
+      "offset": 3016,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 3613,
-      "length": 7,
-      "value": "\"appId\""
-    },
-    {
-      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
-      "kind": "StringLiteral",
-      "offset": 3660,
-      "length": 8,
-      "value": "\"expire\""
-    },
-    {
-      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
-      "kind": "StringLiteral",
-      "offset": 3702,
+      "offset": 3349,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 3768,
+      "offset": 3436,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 3780,
+      "offset": 3448,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 3496,
+      "length": 13,
+      "value": "\"colorScheme\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3543,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3552,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3602,
+      "length": 11,
+      "value": "\"osVersion\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3688,
+      "length": 10,
+      "value": "\"timezone\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3770,
+      "length": 14,
+      "value": "\"screenHeight\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 3856,
+      "length": 13,
+      "value": "\"screenWidth\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4288,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4335,
+      "length": 8,
+      "value": "\"expire\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4377,
+      "length": 12,
+      "value": "\"clientInfo\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 4428,
       "length": 6,
       "value": "\"hmac\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4066,
+      "offset": 4687,
       "length": 56,
       "value": "\"ApplinkPro verbose - Fetching initial deeplink data...\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4361,
+      "offset": 4982,
       "length": 100,
       "value": "\"ApplinkPro - The SDK is not validated. Check if the setup function contains the correct id and key\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4826,
+      "offset": 5447,
       "length": 14,
       "value": "\"redirectLink\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4882,
+      "offset": 5503,
       "length": 8,
       "value": "\"expire\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4924,
-      "length": 10,
-      "value": "\"language\""
+      "offset": 5545,
+      "length": 12,
+      "value": "\"clientInfo\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4990,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
-      "kind": "StringLiteral",
-      "offset": 5002,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
-      "kind": "StringLiteral",
-      "offset": 5029,
+      "offset": 5596,
       "length": 6,
       "value": "\"hmac\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5297,
+      "offset": 5864,
       "length": 48,
       "value": "\"ApplinkPro verbose - Fetching deeplink data...\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5585,
+      "offset": 6152,
       "length": 100,
       "value": "\"ApplinkPro - The SDK is not validated. Check if the setup function contains the correct id and key\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5913,
+      "offset": 6480,
       "length": 7,
       "value": "\"appId\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5956,
+      "offset": 6523,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5968,
+      "offset": 6535,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5991,
+      "offset": 6558,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6044,
+      "offset": 6611,
       "length": 6,
       "value": "\"hmac\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6242,
+      "offset": 6809,
       "length": 40,
       "value": "\"ApplinkPro verbose - Validating SDK...\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6306,
+      "offset": 6873,
       "length": 50,
       "value": "\"ApplinkPro verbose - App ID: \""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6355,
+      "offset": 6922,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6380,
+      "offset": 6947,
       "length": 60,
       "value": "\"ApplinkPro verbose - SDK version: \""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6439,
+      "offset": 7006,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6642,
+      "offset": 7209,
       "length": 33,
       "value": "\"ApplinkPro - App ID is invalid.\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6762,
+      "offset": 7329,
       "length": 37,
       "value": "\"ApplinkPro - Secret key is invalid.\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6894,
+      "offset": 7461,
       "length": 89,
       "value": "\"ApplinkPro - New version of the SDK is available: \""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6981,
+      "offset": 7548,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7024,
+      "offset": 7591,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 7116,
+      "offset": 7683,
       "length": 46,
       "value": "\"ApplinkPro verbose - SDK has been validated.\""
     },
     {
       "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/ApplinkPro\/applink-pro-sdk-ios\/ApplinkPro\/Source\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7221,
+      "offset": 7788,
       "length": 4,
       "value": "true"
     }

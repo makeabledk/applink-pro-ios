@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ApplinkPro-Swift.h</key>
 		<data>
-		b7yshETuJo/2tScSWvHzSp2P+Hg=
+		twgZWqRToo0ZZWW//Y6NFBrHvpQ=
 		</data>
 		<key>Headers/ApplinkPro.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		abRUYKkgoZ+4Y+GgK4GstU2XxhQ=
+		Dj4yqcIGIQxQK7tmT7hqoSXC+Uo=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		prTSojCBJB7UZO/A9kpmlchy+uE=
+		9FNoqe7v+N7gRe3j195SjO/lmlE=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		prTSojCBJB7UZO/A9kpmlchy+uE=
+		9FNoqe7v+N7gRe3j195SjO/lmlE=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SgN0P9iCA5RJ9iVI3vwIrL0ihoI=
+		SaEKYRbiTRk+K9BSWOROkdLXxT0=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		abRUYKkgoZ+4Y+GgK4GstU2XxhQ=
+		Dj4yqcIGIQxQK7tmT7hqoSXC+Uo=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eewSyGbm5GCdZz5GWPeID+Ld424=
+		Q3NW7PghE/C7d3tMYJpwb3wu8+8=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eewSyGbm5GCdZz5GWPeID+Ld424=
+		Q3NW7PghE/C7d3tMYJpwb3wu8+8=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fNp3cfwIJTU0gB3WsjU6W00u8TE=
+		i0J8YyxsxIc3PvUGihtAdr2uMR0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BB3DS5ThstsynLyuhXTCO8i/GpQuKMd+QmTPza2N8rU=
+			NPIsng9Jul6o1hvByLEDaAsE3W87kfTFeZCHwgLuKjU=
 			</data>
 		</dict>
 		<key>Headers/ApplinkPro.h</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGO5mOokebHDNjtGb/LhMdbOxrDxeYdIAX5IYlIBr48=
+			By/wK3rubIXbi8VvyCJDgiqOTfghhyNh7+ydsDG+xsA=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VHizHPqq9zo9mPQrippj+enIq2L8L71guf5hFm12+hg=
+			DeEsjCIWb5ZtmwqAuMMxWppXq7Xf0OVn1kOGSqfWPIA=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VHizHPqq9zo9mPQrippj+enIq2L8L71guf5hFm12+hg=
+			DeEsjCIWb5ZtmwqAuMMxWppXq7Xf0OVn1kOGSqfWPIA=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mgxcRlSaWx2dxOEGq5jFQo+GnzzzbZmzlqBXFGsuCyo=
+			5mUaybsL+chmM7gfQYnyU74ikLNgOqnUjuwO8AYLXP4=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGO5mOokebHDNjtGb/LhMdbOxrDxeYdIAX5IYlIBr48=
+			By/wK3rubIXbi8VvyCJDgiqOTfghhyNh7+ydsDG+xsA=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0QijNyaDm/KPD92d1Ca+PNj+A7TYufRfmHGyy4z+mY8=
+			BUduYzNsSzmnya9A2sxwu/TarCPiBEuplTSkg91wMyg=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0QijNyaDm/KPD92d1Ca+PNj+A7TYufRfmHGyy4z+mY8=
+			BUduYzNsSzmnya9A2sxwu/TarCPiBEuplTSkg91wMyg=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x+eiVGlJUltfwKmG1IiKZaiL2rUG1DQ5W+K0snuj97Y=
+			yF58pZaYTzbjkAo4SCoTmxZej5YxMW0jlA8m6bd9rdo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
