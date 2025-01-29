@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ApplinkPro-Swift.h</key>
 		<data>
-		/gcvJFswmWrI8Gj9MJD7PO5y4bQ=
+		DtxB+onzj2TXJ5AL9kHUP4MumV0=
 		</data>
 		<key>Headers/ApplinkPro.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v7o6RlKJuOgRMls66OifGKJXyfw=
+		UGZD2To6eSOXUkCfM44B/gL8j2M=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GjcQBW7lg5/Fc1K+7oyoIEFJgHI=
+		SU35yiaCGoW7Oric9Pdj9OH+ORY=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		6YaMsS3IIkTPC/QrG5S6igwK9vE=
+		C3iZ15D3CfJOrZrUH/AKkpCN6nM=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ABa6b1i5RllllnjPQVAD49ATc2U=
+		u8bNZIEMeDwB+ZvSKFOx+KSMsiA=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6YaMsS3IIkTPC/QrG5S6igwK9vE=
+		C3iZ15D3CfJOrZrUH/AKkpCN6nM=
 		</data>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		S6nWGYW4ITry7kCFHjH3PavRPF4=
+		7VtgjrsBzggP5L7SA49Lc1toWTs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DX6kT6vb7+7U25gssI8MPSjR8cJtKEnCzklF8HtVjYc=
+			lrv0J02oF4BbUxM5Jj5QLtllWRFDj+IBB/GS6lSem4Q=
 			</data>
 		</dict>
 		<key>Headers/ApplinkPro.h</key>
@@ -65,35 +65,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kv7nOGXh8v9aL3OYLg04yzJPn9asl5xK71Ga/6dU7rk=
+			7hvk+D5yWUKUQ+wl545ot8yyTadTco/trlnP9/R9530=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+0dzl1V95z1607jHkC4Ch70zb7tpF43PHgK7HvvtIM=
+			yql1v2qHFsxyoDFdZF2i9OGxTk/UicEcSVoIT5IDpOM=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r7vTpCmSSxR7Xdzj70bH465l+e8sCM6wnIXGBjUlH8Y=
+			JEfFBjx/7WAL8CGvAlgUfq2QUq08lMpjIPu8uACIC6E=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+0dzl1V95z1607jHkC4Ch70zb7tpF43PHgK7HvvtIM=
+			yql1v2qHFsxyoDFdZF2i9OGxTk/UicEcSVoIT5IDpOM=
 			</data>
 		</dict>
 		<key>Modules/ApplinkPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EBBaruwFlZ1G7jqUFN/mg5lUPLDBRT10Ddsxwrjbu6w=
+			ndmQcON9Gr7MQIM4RN/3TczqN/iBI/JrJLUROITtTrY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
